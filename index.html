@@ -1,12 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Robo-Advisor - Анализ и Формирование Инвестиционного Портфеля</title>
+    <meta name="description"
+        content="Robo-Advisor.ru - сервис для анализа инвестиционного портфеля, формирования и оценки инвестиционного портфеля с помощью современных технологий." />
+    <meta name="keywords"
+        content="анализ инвестиционного портфеля, формирование инвестиционного портфеля, оценка инвестиционного портфеля, robo-advisor" />
+    <meta name="author" content="robo-advisor.ru" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section.hero {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        section.hero h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        section.hero p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        section.features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        section.features article {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            flex: 1 1 280px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        section.features article h3 {
+            margin-top: 0;
+            color: #004080;
+        }
+
+        section.features article p {
+            color: #555;
+            line-height: 1.4;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #004080;
+            color: white;
+            margin-top: 60px;
+        }
+
+        a.cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #007acc;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        a.cta-button:hover {
+            background-color: #005fa3;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my first HTML page.</p>
+    <header>
+        <h1>robo-advisor</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Анализ и Формирование Инвестиционного Портфеля</h2>
+            <p>Современный сервис для оценки и оптимизации вашего инвестиционного портфеля с помощью передовых
+                технологий.</p>
+            <a href="#contact" class="cta-button">Начать сейчас</a>
+        </section>
+        <section class="features">
+            <article>
+                <h3>Анализ инвестиционного портфеля</h3>
+                <p>Подробный анализ текущего состояния вашего инвестиционного портфеля для выявления рисков и
+                    возможностей.</p>
+            </article>
+            <article>
+                <h3>Формирование инвестиционного портфеля</h3>
+                <p>Создание сбалансированного и эффективного портфеля, соответствующего вашим целям и уровню риска.</p>
+            </article>
+            <article>
+                <h3>Оценка инвестиционного портфеля</h3>
+                <p>Регулярная оценка и мониторинг портфеля для поддержания оптимальной структуры и максимизации
+                    доходности.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 robo-advisor.ru. Все права защищены.</p>
+    </footer>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(102180410, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/102180410" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
+
 </html>
